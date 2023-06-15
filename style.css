@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+    .header{
+      /* height: 50px; */
+      background-color: red;
+      min-width: 100%;
+      padding-top: 1.9rem;
+      border: #ffffff double;
+    }
+
+    .main-co{
+      display: grid;
+    }
+   
+    /* .test{
+      display: flex;
+    } */
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+    
+    
+}
+
+body{
+    background-color: white;
+    /* border: groove #bc3cfc */
+}
+
+
+
+.moneyInput{
+    padding: 1.25rem;
+    /* display: inline-block; */
+    margin: 0 auto;
+    
+}
+
+
+.moneyButton {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: .63rem;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.44rem;
+    background: #808080;
+    padding: .69rem 1.25rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    
+
+  }
+  
+  .moneyButton:hover {
+    background: red;
+    text-decoration: none;
+  }
+
+
+
+.thumbsUp{
+  height: 12.5rem;
+  width: 12.5rem;
+  display: block;
+  margin: 0 auto;
+  visibility: hidden;  
+ 
+}
+
+.thumbsDown{
+  height: 12.5rem;
+  width: 12.5rem;
+  display: block;
+  margin: 0 auto;
+  display: none;
+ 
+  
+}
+
+
+.buyContainer{
+   text-align: center;
+  
+   
+   
+}
+
+.amountSentence{
+    padding-right: 6.25rem;
+    
+}
+
+/* .spanAmount{
+  
+} */
+
+.resetButton{
+  -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 0.63rem;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.44rem;
+    background: #808080;
+    padding: .68rem 1.25rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3.13rem;
+    visibility: hidden;
+    /* margin: o auto; */
+}
+
+
+.resetButton:hover{
+  background: red;
+  text-decoration: none;
+  
+}
+
+
+
+.itemInput{
+  padding: 1.25rem;
+  
+  
+}
+
+
+.itemButton{
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: .63rem;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1.4rem;
+  background: #808080;
+  padding: .69rem 1.25rem;
+  text-decoration: none;
+  cursor: pointer;
+  
+  /* margin: 0 auto; */
+
+}
+
+.itemButton:hover{
+  background: red;
+  text-decoration: none;
+  
+}
+
+
+.itemsContainer{
+ cursor: pointer;
+ width: 25rem;
+ /* margin-top: 50px; */
+ margin: 3.13rem auto;
+ 
+
+ /* text-align: center; */
+ /* text-align: center;
+ margin-left: 110px; */
+ /* background-color: yellow; */
+ 
+ /* display: inline-block; */
+ 
+ /* background-color: blue; */
+
+
+}
+
+
+.checkBox{
+  visibility: hidden;
+  /* margin: 0 auto; */
+}
+
+
+.loading{
+  visibility: hidden;
+}
+
+li{
+  /* margin-right: 400px; */
+  list-style-type: square;
+  /* text-align: center; */
+ 
+/* margin-left: 50px;
+ text-align: initial;  */
+  
+   /* background-color: red; */
+  
+   
+   /* list-style-position: outside; */
+  
+  
+  /* list-style-position: inside;
+   text-align: center; */
+
+  
+ 
+}
+
+
+.tiger-container{
+  position: absolute;
+  top: 9.4rem;
+  right: 6.25rem;
+  left:80%;
+  height: 43.8rem;
+  width: 18.8rem;
+  background-color: red;
+  border: #ffffff double;
+  z-index: -2;
+  
+}
+
+.tiger{
+position: relative;
+top: .63rem;
+right: .63rem;
+ left:25%;
+ z-index: -1;
+}
+
+
+
+
+.creator{
+ position: relative;
+ top: 4.4rem;
+ right:.63rem;
+ left:2%;
+ z-index: -1;
+ color: white;
+ font-size: 1.5rem
+}
+
+
+.tiger-paw-1{
+  height: 9.4rem;
+  position: absolute;
+  z-index: -1;
+  top: 9.4rem;
+  left:5%;
+ 
+}
+
+.tiger-paw-2{
+  height: 9.4rem;
+  position: absolute;
+  z-index: -1;
+  top: 18.8rem;
+  left:20%;
+ 
+}
+
+.tiger-paw-3{
+  height: 9.4rem;
+  position: absolute;
+  z-index: -1;
+  top: 28rem;
+  left:5%;
+ 
+}
+
+.tiger-paw-4{
+  height: 9.4rem;
+  position: absolute;
+  z-index: -1;
+  top: 38rem;
+  left:20%;
+ 
+}
+
+.tiger-paw-5{
+  height: 9.4rem;
+  position: absolute;
+  z-index: -1;
+  top: 47rem;
+  left:5%;
+ 
+}
+
+
+.gif{
+  height: 6.25rem;
+  width: 6.25rem;
+  margin: 6.25rem auto;
+  position: relative;
+}
+
+
+.material{
+  z-index: -1;
+  color: white;
+  font-size: .93rem;
+}
+
+/* .tiger-paw-6{
+  height: 150px;
+  position: absolute;
+  z-index: -1;
+  top: 900px;
+  left:20%;
+ 
+} */
+
+
